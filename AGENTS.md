@@ -74,7 +74,7 @@ These 5 rules apply to every task without exception:
 - Always use `npm ci` - never `npm install`
 - Always commit `package-lock.json`
 - Dockerfile audit: `RUN npm audit --audit-level=moderate` after `npm ci`
-- npm OIDC Trusted Publishing requires npm >= 11.5.1
+- npm OIDC Trusted Publishing requires npm >= 11.5.1 and Node version 22.14.0 or higher.
 
 ---
 
