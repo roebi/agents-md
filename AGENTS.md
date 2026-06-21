@@ -108,5 +108,6 @@ These 5 rules apply to every task without exception:
 ## Output delivery
 
 - Package multi-file outputs as `.tar.gz` archive
-- Exclude: `.venv`, `.git`, `__pycache__`, `.pytest_cache`
+- Include: `.git`
+- Exclude: `.venv`, `__pycache__`, `.pytest_cache`
 - The archive is the canonical deliverable
